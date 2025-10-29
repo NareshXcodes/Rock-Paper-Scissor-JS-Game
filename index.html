@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock , Paper and Scissor Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Rock Paper & Scissor Game</h1>
+    <div id="headings"> 
+        <div class="player-heading">
+            <span>🧑Human</span>
+            <p id="humanScore">0</p>
+        </div>
+        <div class="player-heading">
+            <span>🤖AI</span>
+            <p id="aiScore">0</p>
+        </div>
+    </div>
+
+    <div id="images">
+        <img id="humanHands" src="./assests/White-in-Jacket1.png" alt="Human-Hands">
+        <img id="computerHands" src="./assests/Purple-in-Jacket9.png" alt="Computer-Hands">
+    </div>
+    <div id="Content">
+        <h3> Choose One <span id="arrowDown">&#8595;</span></h3>
+        <div id="buttons">
+            <button onclick="choosenRock()">Rock</button>
+            <button onclick="choosenPaper()">Paper</button>
+            <button onclick="choosenScissor()">Scissor</button>
+        </div>
+        <p id="results"> Result : </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
